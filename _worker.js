@@ -119,7 +119,7 @@ export default {
 							sub = 'workervless2sub-f1q.pages.dev'; 
 							subconfig = 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
 						} else {
-							sub = 'vless-4ca.pages.dev';
+							sub = 'noTLS.fxxk.dedyn.io';
 							subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini";
 						}
 					} 
