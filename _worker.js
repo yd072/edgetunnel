@@ -1168,7 +1168,7 @@ function 配置信息(UUID, 域名地址) {
 	const 指纹 = 'randomized';
 
 	if (域名地址.includes('.workers.dev')){
-		地址 = 'www.wto.org';
+		地址 = 'visa.cn';
 		端口 = 80 ;
 		传输层安全 = ['',false];
 	}
