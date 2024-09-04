@@ -116,7 +116,7 @@ export default {
 					await sendMessage(`#获取订阅 ${FileName}`, request.headers.get('CF-Connecting-IP'), `UA: ${UA}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
 					if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 						if (request.headers.get('Host').includes(".workers.dev")) {
-							sub = 'workervless2sub-f1q.pages.dev'; 
+							sub = 'noTLS.fxxk.dedyn.io'; 
 							subconfig = 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
 						} else {
 							sub = 'VLESS.fxxk.dedyn.io';
